@@ -12,14 +12,27 @@ class MenuIitems {
   required this.subTitle,
   required this.link,
   required this.icon,
-});
+  });
 }
 
 const appMeniItems = <MenuIitems>[
 
-MenuIitems(title: "Trajeta",
- subTitle: "Un contenedor estilizado", 
- link: "/card", 
- icon: Icons.credit_card
- ),
+const MenuIitems(
+  title: 'Botones',
+  subTitle: 'Varios botones en Flutter',
+  link: '/buttons',
+  icon: Icons.smart_button_outlined
+),
+
+const MenuIitems(
+  title: 'Tajetas',
+  subTitle: 'Un contenedor estilizado',
+  link: '/card',
+  icon: Icons.credit_card
+),
 ];
+
+
+
+
+
