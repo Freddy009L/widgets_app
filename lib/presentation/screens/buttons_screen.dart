@@ -3,6 +3,9 @@ import 'package:flutter_test/flutter_test.dart';
 
 
 class ButtonsScreen extends StatelessWidget {
+
+  static String name = "buttons_screens";
+  
   const ButtonsScreen({super.key});
 
   @override

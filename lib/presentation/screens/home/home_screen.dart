@@ -5,6 +5,9 @@ import 'package:widgets_app/presentation/screens/buttons_screen.dart';
 import 'package:widgets_app/theme/app_theme.dart';
 
 class HomeScreen extends StatelessWidget {
+
+  static const String name = "home_screen";
+  
   const HomeScreen({super.key});
 
   @override

@@ -3,6 +3,8 @@ import 'package:flutter_test/flutter_test.dart';
 
 
 class CardsScreen extends StatelessWidget {
+
+  static String name = "card_screens";
   const CardsScreen ({super.key});
 
   @override
