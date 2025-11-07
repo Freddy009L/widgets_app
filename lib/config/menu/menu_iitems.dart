@@ -17,14 +17,14 @@ class MenuIitems {
 
 const appMeniItems = <MenuIitems>[
 
-const MenuIitems(
+ MenuIitems(
   title: 'Botones',
   subTitle: 'Varios botones en Flutter',
   link: '/buttons',
   icon: Icons.smart_button_outlined
 ),
 
-const MenuIitems(
+ MenuIitems(
   title: 'Tajetas',
   subTitle: 'Un contenedor estilizado',
   link: '/card',
