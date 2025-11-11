@@ -7,7 +7,7 @@ import 'package:widgets_app/theme/app_theme.dart';
 class HomeScreen extends StatelessWidget {
 
   static const String name = "home_screen";
-  
+
   const HomeScreen({super.key});
 
   @override
@@ -63,8 +63,13 @@ class _CustomListTitle extends StatelessWidget {
      //     builder: (context) => const ButtonsScreen(),
      //     ),
      // );
+     //Navigator.pushNamed(context, menuItem.link);
+     //TODO: algunas formas de navegacion de pantallas propias de flutter 
 
-      //Navigator.pushNamed(context, menuItem.link);
+      
+   //TODO: Porpias de go rauter
+
+      // context.pushNamed( CardsScreen.name);
       context.push( menuItem.link);
     },
     );
