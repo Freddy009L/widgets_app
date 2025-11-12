@@ -180,7 +180,7 @@ class _CardType3 extends StatelessWidget {
       ),
       elevation: elevation,
       child: Padding(
-        padding: EdgeInsets.fromLTRB(10, 5, 10, 10),
+        padding: EdgeInsets.fromLTRB(10, 5, 10, 11),
         child: Column(
           children: [
             Align(
