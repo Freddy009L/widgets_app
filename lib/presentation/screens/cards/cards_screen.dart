@@ -9,7 +9,6 @@ const cards = <Map<String,dynamic>> [
 {'elevation': 5.0, 'label': 'Elevation 5'},
 ];
 
-
 class CardsScreen extends StatelessWidget {
 
   static String name = "card_screens";
@@ -105,11 +104,6 @@ class _CardType1 extends StatelessWidget {
   }
 }
 
-
-
-
-
-
 class _CardType2 extends StatelessWidget {
   
   final String label;
@@ -151,11 +145,6 @@ class _CardType2 extends StatelessWidget {
     );
   }
 }
-
-
-
-
-
 
 class _CardType3 extends StatelessWidget {
   
