@@ -124,7 +124,7 @@ class _CardType2 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Card(
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadiusGeometry.circular(10),
+        borderRadius: BorderRadius.circular(10),
         side: BorderSide(
           color: Colors.lightBlue,
         )
@@ -173,7 +173,7 @@ class _CardType3 extends StatelessWidget {
     return Card(
       color: colorScheme.onSurfaceVariant,
       shape: RoundedRectangleBorder(
-        borderRadius: BorderRadiusGeometry.circular(10),
+        borderRadius: BorderRadius.circular(10),
         side: BorderSide(
           color: Colors.blue,
         )
@@ -228,12 +228,18 @@ class _CardType4 extends StatelessWidget {
       
           Align(
             alignment: Alignment.topRight,
-            child: IconButton(
-              icon: Icon(Icons.more_vert_outlined),
-              onPressed: () {},
+            child: Container(
+              decoration: BoxDecoration(
+                color: Colors.white,
+                borderRadius: BorderRadius.only(bottomLeft: Radius.circular(15)),
+              ),
+              child: IconButton(
+                icon: Icon(Icons.more_vert_outlined),
+                onPressed: () {},
+              ),
             ),
           ),
-         
+        
         ],
       ),
     );
