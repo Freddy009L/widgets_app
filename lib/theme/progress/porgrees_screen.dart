@@ -53,7 +53,7 @@ class _ControllerdProgresIndicator extends StatelessWidget {
       }).takeWhile((value) => value < 100 ),
       builder: (context, asyncSnapshot) {
 
-        final porgreesValue = (asyncSnapshot.data ?? 0.0) as double;
+        final porgreesValue = (asyncSnapshot.data ?? 0.0);
         
         return Padding(
           padding: EdgeInsets.symmetric(horizontal: 20),
