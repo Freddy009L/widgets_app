@@ -21,7 +21,7 @@ class SnackbarScreens extends StatelessWidget {
     context: context, 
     barrierDismissible: false,
     builder: (contex) => AlertDialog(
-      title: Text('Estas seguro'),
+      title: Text('Estas seguro?'),
       content:  const Text('Laborum adipisicing enim consectetur sit Lorem excepteur et minim esse commodo occaecat adipisicing proident ex.'),
       actions: [
         TextButton(onPressed: ()=> contex.pop(), child: Text('Cancelar')),

@@ -44,6 +44,20 @@ MenuIitems(
   link: '/snackbars',
   icon: Icons.info_outline
 ),
+
+MenuIitems(
+  title: 'Snackbars y  dialogos',
+  subTitle: 'Indicadores en pantalla',
+  link: '/animated',
+  icon: Icons.check_box_outline_blank_rounded
+),
+
+MenuIitems(
+  title: 'UI Controls',
+  subTitle: 'Una serie de controles de Flutter',
+  link: '/ui-controls',
+  icon: Icons.assignment_turned_in_rounded
+),
 ];
 
 
