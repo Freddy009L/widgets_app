@@ -58,6 +58,13 @@ MenuIitems(
   link: '/ui-controls',
   icon: Icons.assignment_turned_in_rounded
 ),
+
+MenuIitems(
+  title: 'Introduccion a la aplicacion',
+  subTitle: 'Tutorial introductorio',
+  link: '/tutorial',
+  icon: Icons.baby_changing_station_sharp
+),
 ];
 
 

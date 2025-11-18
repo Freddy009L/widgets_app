@@ -1,5 +1,5 @@
 export 'package:widgets_app/presentation/animated/animated_screens.dart';
-export 'package:widgets_app/presentation/animated/app_tutorial_screens.dart';
+export 'package:widgets_app/presentation/animated/app_tutorial/app_tutorial_screens.dart';
 export 'package:widgets_app/presentation/animated/infinite_scroll/infinite_scroll_screens.dart';
 export 'package:widgets_app/presentation/screens/buttons_screen.dart';
 export 'package:widgets_app/presentation/screens/cards/cards_screen.dart';

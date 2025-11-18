@@ -117,7 +117,6 @@ class _UiControlViewState extends State<_UiControlView> {
         wantsDinner = !wantsDinner;
         }),
         ),
-
       ],
     );
   }
