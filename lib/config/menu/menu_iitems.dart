@@ -65,6 +65,13 @@ MenuIitems(
   link: '/tutorial',
   icon: Icons.baby_changing_station_sharp
 ),
+
+MenuIitems(
+  title: 'InfiniteScroll y Pull',
+  subTitle: 'LIsta infinita',
+  link: '/infinite',
+  icon: Icons.android_rounded
+),
 ];
 
 
