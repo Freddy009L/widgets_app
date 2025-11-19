@@ -46,8 +46,8 @@ MenuIitems(
 ),
 
 MenuIitems(
-  title: 'Snackbars y  dialogos',
-  subTitle: 'Indicadores en pantalla',
+  title: 'Animated Container',
+  subTitle: 'Animacion de pantalla',
   link: '/animated',
   icon: Icons.check_box_outline_blank_rounded
 ),
