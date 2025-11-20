@@ -17,6 +17,13 @@ class MenuIitems {
 
 const appMeniItems = <MenuIitems>[
 
+MenuIitems(
+  title: 'Counter Screen',
+  subTitle: 'Counter Riverpod',
+  link: '/counter',
+  icon: Icons.add
+),
+
  MenuIitems(
   title: 'Botones',
   subTitle: 'Varios botones en Flutter',
@@ -72,6 +79,14 @@ MenuIitems(
   link: '/infinite',
   icon: Icons.android_rounded
 ),
+
+MenuIitems(
+  title: 'Cambiar tema',
+  subTitle: 'Cambiar tema de la aplicacion',
+  link: '/theme-changer',
+  icon: Icons.color_lens_outlined
+),
+
 ];
 
 
